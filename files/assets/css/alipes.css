@@ -44,8 +44,8 @@
 }
 
 body {
-font-family: "Lobster", sans-serif;
-  color: var(--alipes-gray);
+  font-family: "Poppins", sans-serif;
+  color: var(--alipes-black);
   font-size: 16px;
   line-height: 30px;
   font-weight: 500;
@@ -2077,9 +2077,9 @@ ul {
 .main-slider-two__title {
   position: relative;
   display: block;
-  font-size: 133px;
+  font-size: 130px;
   line-height: 150px;
-  font-weight: 200;
+  font-weight: 300;
   color: var(--alipes-black);
   letter-spacing: 0.2em;
   text-transform: uppercase;
@@ -2094,6 +2094,7 @@ ul {
   transition: opacity 2000ms ease, -webkit-transform 2000ms ease;
   transition: transform 2000ms ease, opacity 2000ms ease;
   transition: transform 2000ms ease, opacity 2000ms ease, -webkit-transform 2000ms ease;
+  font-family: "Poppins", sans-serif;
 }
 
 .main-slider-two__text {
