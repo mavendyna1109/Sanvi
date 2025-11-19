@@ -2079,7 +2079,7 @@ ul {
   display: block;
   font-size: 133px;
   line-height: 150px;
-  font-weight: 300;
+  font-weight: 200;
   color: var(--alipes-black);
   letter-spacing: 0.2em;
   text-transform: uppercase;
@@ -2094,7 +2094,6 @@ ul {
   transition: opacity 2000ms ease, -webkit-transform 2000ms ease;
   transition: transform 2000ms ease, opacity 2000ms ease;
   transition: transform 2000ms ease, opacity 2000ms ease, -webkit-transform 2000ms ease;
-  font-family: "Lobster", sans-serif;
 }
 
 .main-slider-two__text {
