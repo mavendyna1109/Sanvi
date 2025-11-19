@@ -754,14 +754,15 @@ ul {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  color: var(--alipes-white);
+  color: var(--alipes-black);
   text-transform: uppercase;
   position: relative;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 0.1em;
   font-family: var(--alipes-font-two);
+
 }
 
 .main-menu .main-menu__list>li>a::before,
@@ -781,12 +782,13 @@ ul {
 }
 
 .main-menu .main-menu__list>li.current>a,
-.main-menu .main-menu__list>li:hover>a,
 .stricky-header .main-menu__list>li.current>a,
 .stricky-header .main-menu__list>li:hover>a {
-  color: var(--alipes-white);
+  color: var(--alipes-black);
 }
-
+.main-menu .main-menu__list>li:hover>a{
+    color: var(--alipes-white);
+}
 .main-menu .main-menu__list>li.current>a::before,
 .main-menu .main-menu__list>li:hover>a::before,
 .stricky-header .main-menu__list>li.current>a::before,
@@ -1486,7 +1488,25 @@ ul {
 }
 
 .stricky-header.main-menu-two {
-  background-color: var(--alipes-black);
+      background: radial-gradient(
+      circle,
+      rgba(186, 184, 184, 0.35),
+      rgba(187, 186, 186, 0.30),
+      rgba(188, 188, 188, 0.25),
+      rgba(190, 189, 190, 0.20),
+      rgba(191, 191, 191, 0.18),
+      rgba(191, 191, 191, 0.18),
+      rgba(191, 191, 191, 0.18),
+      rgba(191, 191, 191, 0.20),
+      rgba(190, 189, 190, 0.25),
+      rgba(188, 188, 188, 0.30),
+      rgba(187, 186, 186, 0.35),
+      rgba(186, 184, 184, 0.40)
+  );
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
 }
 
 .main-menu-two__wrapper {
@@ -1494,12 +1514,13 @@ ul {
   display: block;
   padding: 0 60px;
   z-index: 1;
+
 }
 
 .main-menu-two__wrapper-inner {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
@@ -2018,7 +2039,7 @@ ul {
   right: 0;
   bottom: 0;
   content: "";
-  background-color: rgba(26, 21, 14, .70);
+  background-color: rgba(49, 49, 49, 0.13);
 }
 
 .main-slider-two__shape-1 {
@@ -2059,7 +2080,7 @@ ul {
   font-size: 150px;
   line-height: 150px;
   font-weight: 300;
-  color: var(--alipes-white);
+  color: var(--alipes-black);
   letter-spacing: 0.2em;
   text-transform: uppercase;
   margin-bottom: 5px;
